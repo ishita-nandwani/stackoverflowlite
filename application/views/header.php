@@ -1,30 +1,29 @@
- <header id="header" class="page-topbar">
-        <!-- start header nav-->
-        <div class="navbar-fixed">
-            <nav class="cyan">
-                <div class="nav-wrapper">                    
-                    
-                    <ul class="left">
-                      <li class="no-hover"><a href="#" data-activates="slide-out" class="menu-sidebar-collapse btn-floating btn-flat btn-medium waves-effect waves-light cyan hide-on-large-only"><i class="mdi-navigation-menu" ></i></a></li>
-                      <li><h1 class="logo-wrapper"><a href="index.html" class="brand-logo darken-1"><img src="images/name2.webp" alt="Stackoverflow"></a> <span class="logo-text">Materialize</span></h1></li>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stackoverflow Lite</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <link rel="icon"  href="<?php echo base_url('assets/images/icon.png') ?>">
+    <link rel="stylesheet" href="<?=base_url("assets/css/home.css");?>">
+</head>
 
-                    </ul>
-                    <div class="header-search-wrapper hide-on-med-and-down">
-                        <i class="mdi-action-search"></i>
-                        <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Explore Questions"/>
-                    </div>
-                    <ul class="right hide-on-med-and-down">
-                        <li>
-                        <a href="index.html" class="waves-effect waves-block waves-light toggle-fullscreen">
-                            <span>Login</span>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="index.html">
-                            <span>signup</span>
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+<body>
+<header id="header" class="horizontal-header">
+<!-- start header nav-->                   
+    <ul>
+          <li>
+               <p><a href="index.html" ><img src="<?php echo base_url('assets/images/logo.webp') ?>" alt="Stackoverflow" class="image-logo" ></a> </p>
+          </li>
+          <li>
+               <input type="text" name="Search" placeholder="Explore Questions" class="search"/>
+          </li>
+          <li>
+               <button class="login-btn">Login</button>
+          </li>
+          <li>
+               <button class="login-btn">SignUp</button>
+          </li>
+    </ul>
  </header>
