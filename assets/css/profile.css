@@ -1,0 +1,27 @@
+.profile-up {
+     padding: 2.5em 4em;
+     margin: 1em 15em;
+}
+
+.profile-img {
+     height: 200px;
+     width: 200px;
+     border-radius: 10%;
+     margin-right: 0px;   
+}
+
+.profile-content {
+     font-size: 1.1em;
+     font-family: Verdana;
+     letter-spacing: 1.2px;
+}
+
+.profile-content div span {
+     font-weight: 550;
+}
+
+.profile-content .full-name {
+     font-size: 2em;
+     font-weight: bold;
+     padding-bottom: .2em;
+}

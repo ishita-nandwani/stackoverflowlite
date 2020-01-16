@@ -1,7 +1,3 @@
-<footer class="page-footer">
-     <div class="footer-copyright">
-          <div class="container">
-               <span class="right">Copyright &copy 2020 | All rights reserved</span>
-          </div>
-     </div>
+<footer class="footer">
+     <div style="float: right; margin-right: 20px">Copyright &copy 2020 | All rights reserved</div>
 </footer>
